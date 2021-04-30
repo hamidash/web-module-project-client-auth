@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.friend{
+  border: 2px solid burlywood;
+  width: 70%;
+  margin: 5% auto;
+  box-shadow:  
+    0 0 0 10px hsl(0, 0%, 80%),
+    0 0 0 15px hsl(0, 0%, 90%);
+  background: rgb(200, 219, 238);
+  border-radius: 25px;
+}
+
+.friend>button{
+  margin:0% 10% 1% 10%
+}
+
+.friends {
+  margin: 1% auto;
+}
+
+.friends > nav {
+  display: flex;
+  flex-direction: column;
+  margin: 2% auto;
+}
+
+a > button {
+   margin: 1% auto; 
+}
+
+form  {
+  margin: 2% auto;
+  width: 70%;
+}
+
+form > .form-control {
+  margin: 2% auto;
+  padding: 6px;
+  background: none;
+  border: none;
+  color: rgb(113, 80, 231);
+  border-bottom: 3px solid rgb(95, 90, 90);
+  margin-top: 0;
+  margin-right: 8px;
+}
+
+.form-control::placeholder {
+  color: #3039d8;
+}
+
